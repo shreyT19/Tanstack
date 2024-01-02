@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+
+  font-size: 14px;
+}
+
+table,
+.divTable {
+  width: fit-content;
+}
+
+.tr {
+  display: flex;
+}
+
+tr,
+.tr {
+  width: fit-content;
+  height: 30px;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+  cursor: pointer;
+}
+
+th,
+.th,
+td,
+.td {
+  padding: 0.5rem;
+}
+
+th,
+.th {
+  padding: 12px 24px;
+  position: relative;
+  text-align: center;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #f1f5f9;
+}
+
+td,
+.td {
+  height: 30px;
+}
+
+.resizer {
+  position: absolute;
+  top: 14px;
+  height: 16px;
+  border-radius: 16px;
+  width: 3px;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: col-resize;
+  user-select: none;
+  touch-action: none;
+  right: 0;
+}
+
